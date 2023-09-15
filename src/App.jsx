@@ -7,12 +7,16 @@ function App() {
 
   return (
     <>
-      
       <h1 className='text-center  font-bold text-3xl mt-5'>Course Registration</h1>
-     <div className='flex'>
-     <Home></Home>
+     <header className=' max-w-5xl mx-auto'> 
+     <div className='flex '>
+     
+   
+   <Home></Home>
+ 
       <Course></Course>
      </div>
+     </header>
     
     </>
   )

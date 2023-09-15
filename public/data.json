@@ -1,75 +1,92 @@
 [
     {
+        "id":1,
       "img": "https://i.ibb.co/ngtB4PS/person-front-computer-working-html.jpg",
-      "courseName": "Web Development Fundamentals",
+      "courseName": "Introduction to C Programming",
       "credit": 3,
       "price": "$49.99",
-      "details": "Learn the basics of web development with HTML, CSS, and JavaScript.",
-      "button": "Enroll Now"
+      "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "button": "Select"
     },
     {
-      "img": "https://example.com/course2.jpg",
-      "courseName": "React.js Mastery",
+        "id":2,
+        "img": "https://i.ibb.co/ngtB4PS/person-front-computer-working-html.jpg",
+      "courseName": "Introduction to Algorithms",
       "credit": 4,
       "price": "$79.99",
-      "details": "Become a React.js expert and build dynamic web applications.",
-      "button": "Enroll Now"
+      "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "button": "Select"
+
     },
     {
-      "img": "https://example.com/course3.jpg",
-      "courseName": "Data Science with Python",
+        "id":3,
+        "img": "https://i.ibb.co/ngtB4PS/person-front-computer-working-html.jpg",
+      "courseName": "Introduction to C++ for DSA",
       "credit": 5,
       "price": "$99.99",
-      "details": "Master data analysis and machine learning with Python.",
-      "button": "Enroll Now"
+      "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "button": "Select"
+
     },
     {
-      "img": "https://example.com/course4.jpg",
-      "courseName": "Mobile App Development",
+        "id":4,
+        "img": "https://i.ibb.co/ngtB4PS/person-front-computer-working-html.jpg",  
+        "courseName": "Basic Data Structures",
       "credit": 4,
       "price": "$89.99",
-      "details": "Create mobile apps for iOS and Android using React Native.",
-      "button": "Enroll Now"
+      "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "button": "Select"
+
     },
     {
-      "img": "https://example.com/course5.jpg",
-      "courseName": "UX/UI Design Essentials",
+        "id":5,
+        "img": "https://i.ibb.co/ngtB4PS/person-front-computer-working-html.jpg", 
+     "courseName": "Introduction to OOP Python",
       "credit": 3,
       "price": "$59.99",
-      "details": "Learn the principles of user experience and user interface design.",
-      "button": "Enroll Now"
+      "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "button": "Select"
+
     },
     {
-      "img": "https://example.com/course6.jpg",
-      "courseName": "Blockchain Fundamentals",
+        "id":6,
+        "img": "https://i.ibb.co/ngtB4PS/person-front-computer-working-html.jpg",   
+           "courseName": "Software Engineering",
       "credit": 4,
       "price": "$69.99",
-      "details": "Explore the world of blockchain technology and cryptocurrencies.",
-      "button": "Enroll Now"
+      "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "button": "Select"
+
     },
     {
-      "img": "https://example.com/course7.jpg",
-      "courseName": "Digital Marketing Masterclass",
+        "id":7,
+        "img": "https://i.ibb.co/ngtB4PS/person-front-computer-working-html.jpg",  
+            "courseName": "AWS, Cloud Computing",
       "credit": 3,
       "price": "$59.99",
-      "details": "Boost your marketing skills and grow your online presence.",
-      "button": "Enroll Now"
+      "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "button": "Select"
+
     },
     {
-      "img": "https://example.com/course8.jpg",
-      "courseName": "Artificial Intelligence Basics",
+        "id":8,
+        "img": "https://i.ibb.co/ngtB4PS/person-front-computer-working-html.jpg",  
+            "courseName": "Database (MySQL)",
       "credit": 4,
       "price": "$79.99",
-      "details": "Get started with AI and machine learning concepts.",
-      "button": "Enroll Now"
+      "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "button": "Select"
+
     },
     {
-      "img": "https://example.com/course9.jpg",
-      "courseName": "Cybersecurity Fundamentals",
+        "id":9,
+        "img": "https://i.ibb.co/ngtB4PS/person-front-computer-working-html.jpg",
+      "courseName": "Problem-Solving Part",
       "credit": 4,
       "price": "$69.99",
-      "details": "Learn the essentials of cybersecurity and protect digital assets.",
-      "button": "Enroll Now"
+      "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "button": "Select"
+
     }
   ]
   

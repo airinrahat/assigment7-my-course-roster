@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React, { useEffect, useState } from 'react';
+import Card from '../CourseCard/Card';
 
 const Home = () => {
     const [data,setData] = useState([]);
@@ -9,15 +10,23 @@ const Home = () => {
         .then(data => setData(data))
     },[])
     return (
-        <div className='w-3/4'>
-            <div>
-                {/* <div className='w-60 h-80 border-4 border-red-400'>  */}
-                <div className=' border-4 border-red-400'> 
+        // <div className='w-3/4'>
+        <div>
+            <div className='grid grid-cols-3 mt-2  '>
+                {/* <div className=' border-4 border-red-400'> 
 
-                <img src="https://i.ibb.co/ngtB4PS/person-front-computer-working-html.jpg" alt="" />
-                <h3>data:                    {data.length}
-</h3>
-                </div>
+                <img src="https://i.ibb.co/ngtB4PS/person-front-computer-working-html.jpg" alt="" /> */}
+                
+            
+             {
+                    data.map(card =>
+                         <Card key={card.id} 
+                         card={card}>
+
+                         </Card>)
+                }
+           
+
             </div>
         </div>
     );
