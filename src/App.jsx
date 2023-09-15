@@ -1,9 +1,14 @@
 
+import { useEffect, useState } from 'react'
 import './App.css'
 import Course from './components/Course/Course'
 import Home from './components/Home/Home'
 
 function App() {
+  const [bookmarks, setBookmarks] = useState([]);
+  const handleAddToBookmark = card =>{
+    console.log('bookmark adding soon')
+  }
 
   return (
     <>
@@ -12,7 +17,7 @@ function App() {
      <div className='flex '>
      
    
-   <Home></Home>
+   <Home handleAddToBookmark ={handleAddToBookmark}></Home>
  
       <Course></Course>
      </div>

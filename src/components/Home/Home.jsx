@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import Card from '../CourseCard/Card';
 
-const Home = () => {
+const Home = ({handleAddToBookmark}) => {
     const [data,setData] = useState([]);
     useEffect( () => {
         fetch('data.json')
@@ -21,7 +21,10 @@ const Home = () => {
              {
                     data.map(card =>
                          <Card key={card.id} 
-                         card={card}>
+                         card={card}
+                         handleAddToBookmark={handleAddToBookmark}
+                         
+                         >
 
                          </Card>)
                 }
