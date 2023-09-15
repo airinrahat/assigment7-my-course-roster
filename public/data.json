@@ -1,0 +1,75 @@
+[
+    {
+      "img": "https://i.ibb.co/ngtB4PS/person-front-computer-working-html.jpg",
+      "courseName": "Web Development Fundamentals",
+      "credit": 3,
+      "price": "$49.99",
+      "details": "Learn the basics of web development with HTML, CSS, and JavaScript.",
+      "button": "Enroll Now"
+    },
+    {
+      "img": "https://example.com/course2.jpg",
+      "courseName": "React.js Mastery",
+      "credit": 4,
+      "price": "$79.99",
+      "details": "Become a React.js expert and build dynamic web applications.",
+      "button": "Enroll Now"
+    },
+    {
+      "img": "https://example.com/course3.jpg",
+      "courseName": "Data Science with Python",
+      "credit": 5,
+      "price": "$99.99",
+      "details": "Master data analysis and machine learning with Python.",
+      "button": "Enroll Now"
+    },
+    {
+      "img": "https://example.com/course4.jpg",
+      "courseName": "Mobile App Development",
+      "credit": 4,
+      "price": "$89.99",
+      "details": "Create mobile apps for iOS and Android using React Native.",
+      "button": "Enroll Now"
+    },
+    {
+      "img": "https://example.com/course5.jpg",
+      "courseName": "UX/UI Design Essentials",
+      "credit": 3,
+      "price": "$59.99",
+      "details": "Learn the principles of user experience and user interface design.",
+      "button": "Enroll Now"
+    },
+    {
+      "img": "https://example.com/course6.jpg",
+      "courseName": "Blockchain Fundamentals",
+      "credit": 4,
+      "price": "$69.99",
+      "details": "Explore the world of blockchain technology and cryptocurrencies.",
+      "button": "Enroll Now"
+    },
+    {
+      "img": "https://example.com/course7.jpg",
+      "courseName": "Digital Marketing Masterclass",
+      "credit": 3,
+      "price": "$59.99",
+      "details": "Boost your marketing skills and grow your online presence.",
+      "button": "Enroll Now"
+    },
+    {
+      "img": "https://example.com/course8.jpg",
+      "courseName": "Artificial Intelligence Basics",
+      "credit": 4,
+      "price": "$79.99",
+      "details": "Get started with AI and machine learning concepts.",
+      "button": "Enroll Now"
+    },
+    {
+      "img": "https://example.com/course9.jpg",
+      "courseName": "Cybersecurity Fundamentals",
+      "credit": 4,
+      "price": "$69.99",
+      "details": "Learn the essentials of cybersecurity and protect digital assets.",
+      "button": "Enroll Now"
+    }
+  ]
+  
