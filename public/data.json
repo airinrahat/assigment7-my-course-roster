@@ -1,8 +1,8 @@
 [
     {
         "id":1,
-      "img": "https://i.ibb.co/ngtB4PS/person-front-computer-working-html.jpg",
-      "courseName": "Introduction to C Programming",
+      "img": "https://i.ibb.co/yqGGp8q/Rectangle-2.png",
+      "courseName": "Introduction to react",
       "credit": 3,
       "price": "$49.99",
       "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
@@ -10,7 +10,7 @@
     },
     {
         "id":2,
-        "img": "https://i.ibb.co/ngtB4PS/person-front-computer-working-html.jpg",
+        "img": "https://i.ibb.co/ZXkt3nY/Rectangle-2-1.png",
       "courseName": "Introduction to Algorithms",
       "credit": 4,
       "price": "$79.99",
@@ -20,8 +20,8 @@
     },
     {
         "id":3,
-        "img": "https://i.ibb.co/ngtB4PS/person-front-computer-working-html.jpg",
-      "courseName": "Introduction to C++ for DSA",
+        "img": "https://i.ibb.co/jJYzh1x/Rectangle-2-2.png",
+      "courseName": "Introduction to C++ ",
       "credit": 5,
       "price": "$99.99",
       "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
@@ -30,7 +30,7 @@
     },
     {
         "id":4,
-        "img": "https://i.ibb.co/ngtB4PS/person-front-computer-working-html.jpg",  
+        "img": "https://i.ibb.co/Cbr8Cc8/Rectangle-3.png",  
         "courseName": "Basic Data Structures",
       "credit": 4,
       "price": "$89.99",
@@ -40,7 +40,7 @@
     },
     {
         "id":5,
-        "img": "https://i.ibb.co/ngtB4PS/person-front-computer-working-html.jpg", 
+        "img": "https://i.ibb.co/kHX9RwZ/Rectangle-2-3.png", 
      "courseName": "Introduction to OOP Python",
       "credit": 3,
       "price": "$59.99",
@@ -50,9 +50,9 @@
     },
     {
         "id":6,
-        "img": "https://i.ibb.co/ngtB4PS/person-front-computer-working-html.jpg",   
+        "img": "https://i.ibb.co/CJjzhqW/Rectangle-2-4.png",   
            "courseName": "Software Engineering",
-      "credit": 4,
+      "credit": 12,
       "price": "$69.99",
       "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
       "button": "Select"
@@ -60,7 +60,7 @@
     },
     {
         "id":7,
-        "img": "https://i.ibb.co/ngtB4PS/person-front-computer-working-html.jpg",  
+        "img": "https://i.ibb.co/SrhzCCj/Rectangle-3-1.png",  
             "courseName": "AWS, Cloud Computing",
       "credit": 3,
       "price": "$59.99",
@@ -70,7 +70,7 @@
     },
     {
         "id":8,
-        "img": "https://i.ibb.co/ngtB4PS/person-front-computer-working-html.jpg",  
+        "img": "https://i.ibb.co/zRVFT81/Rectangle-2-5.png",  
             "courseName": "Database (MySQL)",
       "credit": 4,
       "price": "$79.99",
@@ -80,7 +80,7 @@
     },
     {
         "id":9,
-        "img": "https://i.ibb.co/ngtB4PS/person-front-computer-working-html.jpg",
+        "img": "https://i.ibb.co/1MN5rvz/Rectangle-2-6.png",
       "courseName": "Problem-Solving Part",
       "credit": 4,
       "price": "$69.99",

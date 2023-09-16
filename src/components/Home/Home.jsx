@@ -9,7 +9,9 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const Home = () => {
     const [allCard,setAllcard] =useState([]);
-    const [selectCard,setSelectCard] =useState([])
+    const [selectCard,setSelectCard] =useState([]);
+    const[remainng,setRemainng]=useState(0);
+    const[totalcost,setTotalcost]=useState(0)
 
     useEffect(() =>{
         fetch('./data.json')
@@ -19,12 +21,32 @@ const Home = () => {
 
     const handleSelectCourse = (card) =>{
         const isExit=selectCard.find(item =>item.id == card.id);
+        let count =card.credit;
         if(isExit){
           return   toast('already added')
         }
         else{
+            selectCard.forEach(item => {
+                count =count + item.credit;
+            });
+            console.log(count);
+
+            const totalRemainng= 20 -count;
+             
+           
+
+            if(count > 20){
+            toast('Your hour is over')
+
+            }
+          else{
+            setTotalcost(count);
+            setRemainng(totalRemainng);
             setSelectCard([...selectCard,card]);
+          }
+           
         }
+
      
       
     };
@@ -52,7 +74,12 @@ const Home = () => {
                         ))}
                     </div>
                     <div className="course">
-                       <Card selectCard={selectCard}></Card>
+                       <Card selectCard={selectCard}
+                       remainng={remainng}
+                       totalcost={totalcost}
+                       >
+                        
+                       </Card>
 
                     </div>
                 </div>
