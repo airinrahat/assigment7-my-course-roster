@@ -19,7 +19,7 @@ const Card = ({selectCard,remainng,totalcost}) => {
             ))}
             <hr/>
                     
-                    <h5>Total Credit Hour : {totalcost}hr</h5>    
+                    <h5>Total Credit Hour : {totalcost}</h5>    
             
         </div>
     );
