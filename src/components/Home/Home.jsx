@@ -65,7 +65,7 @@ const Home = () => {
                                 <h3>{card.courseName}</h3>
                                 <p>{card.details}</p>
                                 <div className="info">
-                                    <p><FaDollarSign/> Price : {card.price}</p>
+                                    <p><FaDollarSign/> Price : {card.price} </p>
                                     <p><FaCreditCard/> Credit : {card.credit} hr</p>
                                 </div>
                                 <button onClick={()=>handleSelectCourse(card)} className='card-btn'>Select</button>

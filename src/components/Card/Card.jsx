@@ -9,15 +9,17 @@ const Card = ({selectCard,remainng,totalcost}) => {
     return (
         <div>
             
-            <h4>Credit Hour Remaining: {remainng}hr</h4>
-            <h5>Total Credit Hour : {totalcost}</h5>
+            <h4 className='reamaing'>Credit Hour Remaining: {remainng}hr</h4><hr/>
             <h3>Course Name</h3>
+           
+            
             {selectCard.map((card) =>(
                 <li key={card.id}> {card.courseName} </li>
 
             ))}
+            <hr/>
                     
-                
+                    <h5>Total Credit Hour : {totalcost}hr</h5>    
             
         </div>
     );

@@ -2,10 +2,13 @@
     width: 250px;
     height: 450px;
     border: 1px solid gray;
+    border-radius: 5px;
+   
 }
 .photo{
     width: 250px;
     height: 120px;
+   
 }
 .info{
     display: flex;
@@ -17,6 +20,7 @@
     
 
 }
+
 .home-container{
     display: flex;
    
