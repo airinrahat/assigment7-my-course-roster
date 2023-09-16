@@ -1,28 +1,16 @@
-
-import { useEffect, useState } from 'react'
+/* eslint-disable no-unused-vars */
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
 import './App.css'
-import Course from './components/Course/Course'
 import Home from './components/Home/Home'
 
 function App() {
-  const [bookmarks, setBookmarks] = useState([]);
-  const handleAddToBookmark = card =>{
-    console.log('bookmark adding soon')
-  }
+  const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1 className='text-center  font-bold text-3xl mt-5'>Course Registration</h1>
-     <header className=' max-w-5xl mx-auto'> 
-     <div className='flex '>
-     
-   
-   <Home handleAddToBookmark ={handleAddToBookmark}></Home>
- 
-      <Course></Course>
-     </div>
-     </header>
-    
+    <Home></Home>
     </>
   )
 }
